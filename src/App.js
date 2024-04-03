@@ -3,7 +3,7 @@ import Card from "./Components/Card/Card";
 function App() {
     const cardData = [
         {
-            flatCard: false,
+            flatCard: truwe,
             tagName: "Growth",
             tagColor: "#fa0",
             title: "Card Title 1",
