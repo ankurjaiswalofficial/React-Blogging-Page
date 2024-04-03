@@ -15,15 +15,6 @@ function App() {
         thumbnailImage:
             "https://plus.unsplash.com/premium_photo-1680721444887-65c4138abb27?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     };
-    const flatCard = cardData.flatCard;
-    const tag = cardData.tag;
-    const tagColor = cardData.tagColor;
-    const title = cardData.title;
-    const description = cardData.description;
-    const creatorName = cardData.creatorName;
-    const creationDate = cardData.creationDate;
-    const creatorImage = cardData.creatorImage;
-    const thumbnailImage = cardData.thumbnailImage;
     return (
         <div className="max-w-screen-2xl mx-auto">
             <div className="flex flex-row flex-wrap gap-6">
