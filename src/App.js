@@ -34,7 +34,7 @@ function App() {
         flatCard: false,
         tagName: "Growth",
         tagColor: "green",
-        title: "Card Title",
+        title: "Card Title 3",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, illo vitae mollitia dolor at itaque odit omnis facilis voluptate impedit.",
         creatorName: "Ankur Jaiswal",
