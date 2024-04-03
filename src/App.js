@@ -20,7 +20,7 @@ function App() {
             <div className="flex flex-row flex-wrap gap-6">
                 <Card
                     flatCard={cardData.flatCard}
-                    tag={cardData.tagName}
+                    tagNam4e={cardData.tagName}
                     tagColor={cardData.tagColor}
                     title={cardData.title}
                     description={cardData.description}
