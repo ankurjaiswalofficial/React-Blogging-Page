@@ -6,7 +6,7 @@ function App() {
             flatCard: true,
             tagName: "Latest Post",
             tagColor: "#0af",
-            title: "A Practicle ",
+            title: "A Practical ",
             description:
                 "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, illo vitae mollitia dolor at itaque odit omnis facilis voluptate impedit.",
             creatorName: "Ankur Jaiswal",
