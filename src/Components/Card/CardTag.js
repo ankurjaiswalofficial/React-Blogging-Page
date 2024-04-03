@@ -1,0 +1,9 @@
+import React from "react";
+
+export default function CardTag({tagName, tagColor}) {
+    return (
+        <div className={"p-1 px-4 border-2 border--600 w-fit rounded-full`}>
+            <span className={`text-lg text-${tagColor}-600 font-semibold`}>{tagName}</span>
+        </div>
+    );
+}
