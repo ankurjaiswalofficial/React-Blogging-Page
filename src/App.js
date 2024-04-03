@@ -8,7 +8,7 @@ function App() {
             tagColor: "#0af",
             title: "A Practical Guide to Apple Search Ads",
             description:
-                "Why it's a channel;",
+                "Why it's a channel ",
             creatorName: "Ankur Jaiswal",
             creationDate: "Apr 03, 2024",
             creatorImage:
