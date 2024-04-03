@@ -1,5 +1,5 @@
 import Card from "./Components/Card/Card";
-import cardData from "./Data"
+import cardData from "./Data/Cards.json";
 function App() {
     const cardData = cardData;
     return (
