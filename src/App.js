@@ -1,7 +1,8 @@
 import Card from "./Components/Card/Card";
 
 function App() {
-    const cardData = [{
+    const cardData = [
+      {
         flatCard: false,
         tagName: "Growth",
         tagColor: "green",
