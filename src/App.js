@@ -10,7 +10,7 @@ function App() {
             description:
                 "Why it's a channel worth exploring to grow your app",
             creatorName: "Thomas Petit",
-            creationDate: "June",
+            creationDate: "June 07, 2022",
             creatorImage:
                 "https://images.unsplash.com/photo-1712068944613-1ff36db16612?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             thumbnailImage:
