@@ -8,7 +8,7 @@ export default function CardBody({flatCard, tagName, tagColor, title, descriptio
             <h5 className={`font-bold ${flatCard ? 'text-4xl' : 'text-2xl'}`}>
                 {title}
             </h5>
-            <p className={`font-normal ${flatCard ? '' : 'text-xl}`}>
+            <p className={`font-normal ${flatCard ? 'text-2xl' : 'text-xl}`}>
                 {description}
             </p>
         </div>
