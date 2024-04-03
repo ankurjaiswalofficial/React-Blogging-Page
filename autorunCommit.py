@@ -27,7 +27,7 @@ def commit_changes(repo_dir, commit_msg):
 
 if __name__ == "__main__":
     repo_directory = "."
-    commit_message = "Updated code"
+    commit_message = "Updated Code"
 
     print("Auto Commit Program Started \n")
     while True:
