@@ -33,15 +33,3 @@ if __name__ == "__main__":
     while True:
         branch_name, success = commit_changes(repo_directory, commit_message)
         time.sleep(0.2)
-        if success:
-            print("Deploying")
-            url = f"https://rs.profiledraft.org/rs/deploy/{branch_name}"  # Replace with the desired website URL
-            response = requests.get(url)
-            time.sleep(2)
-            if response.status_code == 200:
-                print("Deployed Successfully: ", response.text)
-            else:
-                print(f"Deployment Error: {response.status_code}")
-            time.sleep(1)
-        else:
-            print("Skipped Deployement as Commit Failed")
