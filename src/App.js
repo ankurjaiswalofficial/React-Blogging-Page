@@ -95,6 +95,7 @@ function App() {
                     return (
                         <Card
                             key={String(index) + `${e.title}`}
+                            type
                             flatCard={e.flatCard}
                             tagName={e.tagName}
                             tagColor={e.tagColor}
