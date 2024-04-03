@@ -5,7 +5,7 @@ export default function CardBody({flatCard, tagName, tagColor, title, descriptio
     return (
         <div className="flex flex-col items-start justify-center gap-3 p-3">
             <CardTag flatCard={flatCard} tagName={tagName} tagColor={tagColor} />
-            <h5 className={`font-bold ${flatCard ? 'text-4xl' : 'text-2xl'}`}>
+            <h5 className={`font-bold ${flatCard ? 'text-5xl' : 'text-2xl'}`}>
                 {title}
             </h5>
             <p className={`font-normal ${flatCard ? 'text-2xl' : 'text-xl'}`}>
