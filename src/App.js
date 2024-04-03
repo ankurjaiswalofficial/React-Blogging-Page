@@ -48,17 +48,7 @@ function App() {
     return (
         <div className="max-w-screen-2xl mx-auto">
             <div className="flex flex-row flex-wrap gap-6">
-                <Card
-                    flatCard={cardData.flatCard}
-                    tagName={cardData.tagName}
-                    tagColor={cardData.tagColor}
-                    title={cardData.title}
-                    description={cardData.description}
-                    creatorName={cardData.creatorName}
-                    creationDate={cardData.creationDate}
-                    creatorImage={cardData.creatorImage}
-                    thumbnailImage={cardData.thumbnailImage}
-                />
+                
             </div>
         </div>
     );
