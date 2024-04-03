@@ -5,7 +5,7 @@ function App() {
         {
             flatCard: false,
             tagName: "Growth",
-            tagColor: "#ffaf00",
+            tagColor: "#ffaa00",
             title: "Card Title 1",
             description:
                 "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, illo vitae mollitia dolor at itaque odit omnis facilis voluptate impedit.",
