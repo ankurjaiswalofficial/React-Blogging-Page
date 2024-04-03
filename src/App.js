@@ -95,7 +95,7 @@ function App() {
                     return (
                         <Card
                             key={String(index) + `${e.title}`}
-                            type2={e.type2 != undefined ? e.type2 : false}
+                            type2={e.type2 !== undefined ? e.type2 : false}
                             flatCard={e.flatCard}
                             tagName={e.tagName}
                             tagColor={e.tagColor}
