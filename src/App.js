@@ -73,7 +73,7 @@ function App() {
                 "https://images.unsplash.com/photo-1638136264464-2711f0078d1e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
-          
+          type
             flatCard: false,
             tagName: "Growth",
             tagColor: "green",
