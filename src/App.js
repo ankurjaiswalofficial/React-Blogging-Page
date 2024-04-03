@@ -74,7 +74,7 @@ function App() {
         },
         {
             type2: true,
-            flatCard: false,
+            flatCard: true,
             tagName: "Growth",
             tagColor: "green",
             title: "Card Title 3",
