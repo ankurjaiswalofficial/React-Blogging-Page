@@ -4,7 +4,7 @@ function App() {
     const cardData = {
         flatCard: false,
         tagName: "Growth",
-        tagColor: "#fa0",
+        tagColor: "red",
         title: "Card Title",
         description:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, illo vitae mollitia dolor at itaque odit omnis facilis voluptate impedit.",
