@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CardImage({flatCard, thumbnailImage, type2}) {
     return (
-        <figure className={"w-full h-auto relative oveflo"}>
+        <figure className={"w-full h-auto relative overflow-hidden"}>
             <img
                 className="w-full h-72 object-cover"
                 src={thumbnailImage}
