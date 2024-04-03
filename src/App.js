@@ -4,7 +4,7 @@ function App() {
     const cardData = [
         {
             flatCard: true,
-            tagName: "Growth",
+            tagName: "LatestPost",
             tagColor: "#fa0",
             title: "Card Title 1",
             description:
