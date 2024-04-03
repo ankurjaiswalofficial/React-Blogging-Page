@@ -52,15 +52,15 @@ function App() {
                     return (
                         <Card
                         key = {String(index) + `${e.title}`}
-                            flatCard={cardData.flatCard}
-                            tagName={cardData.tagName}
-                            tagColor={cardData.tagColor}
-                            title={cardData.title}
-                            description={cardData.description}
-                            creatorName={cardData.creatorName}
-                            creationDate={cardData.creationDate}
-                            creatorImage={cardData.creatorImage}
-                            thumbnailImage={cardData.thumbnailImage}
+                            flatCard={e.flatCard}
+                            tagName={e.tagName}
+                            tagColor={e.tagColor}
+                            title={e.title}
+                            description={e.description}
+                            creatorName={e.creatorName}
+                            creationDate={e.creationDate}
+                            creatorImage={e.creatorImage}
+                            thumbnailImage={e.thumbnailImage}
                         />
                     );
                 })}
