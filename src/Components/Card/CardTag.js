@@ -5,7 +5,7 @@ export default function CardTag({tagName, tagColor}) {
     const colorSpan = 
     return (
         <div className={colorDiv}>
-            <span className={}>{tagName}</span>
+            <span className={colorSpan}>{tagName}</span>
         </div>
     );
 }
