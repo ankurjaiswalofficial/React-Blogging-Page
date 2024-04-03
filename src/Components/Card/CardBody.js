@@ -1,7 +1,7 @@
 import React from "react";
 import CardTag from "./CardTag";
 
-export default function CardBody({tagName, tagColor, title, description}) {
+export default function CardBody({flatCard, tagName, tagColor, title, description}) {
     return (
         <div className="flex flex-col items-start justify-center gap-3 p-3">
             <CardTag tagName={tagName} tagColor={tagColor} />
