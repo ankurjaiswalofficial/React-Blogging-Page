@@ -2,7 +2,7 @@ import Card from "./Components/Card/Card";
 import cardData from "./Data/Cards.json";
 
 function App() {
-    const cardData = cardData;
+    // const cardData = cardData;
     return (
         <div className="max-w-screen-2xl mx-auto">
             <div className="flex flex-row flex-wrap gap-6">
