@@ -1,7 +1,7 @@
 import Card from "./Components/Card/Card";
 
 function App() {
-    const cardData = ;
+    const cardData = Card;
     return (
         <div className="max-w-screen-2xl mx-auto">
             <div className="flex flex-row flex-wrap gap-6">
