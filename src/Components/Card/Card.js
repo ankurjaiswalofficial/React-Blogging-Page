@@ -2,7 +2,7 @@ import React from "react";
 import CardImage from "./CardImage";
 import CardBodyContainer from "./CardBodyContainer";
 
-export default function Card({tagName, tagColor, title, description, creatorName, creationDate, creatorImage, thumbnailImage}) {
+export default function Card({flasttagName, tagColor, title, description, creatorName, creationDate, creatorImage, thumbnailImage}) {
     return (
         <div className={`w-[30%] h-[40rem] border border-gray-300 rounded-2xl overflow-hidden flex items-start justify-between flex-col`}>
             <CardImage thumbnailImage={thumbnailImage} />
