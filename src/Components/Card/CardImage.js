@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CardImage({thumbnailImage, typ}) {
+export default function CardImage({thumbnailImage, typ2}) {
     return (
         <figure className="w-full h-auto">
             <img
