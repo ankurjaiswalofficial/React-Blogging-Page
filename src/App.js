@@ -72,6 +72,20 @@ function App() {
             thumbnailImage:
                 "https://images.unsplash.com/photo-1638136264464-2711f0078d1e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
+        {
+            flatCard: false,
+            tagName: "Growth",
+            tagColor: "green",
+            title: "Card Title 3",
+            description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, illo vitae mollitia dolor at itaque odit omnis facilis voluptate impedit.",
+            creatorName: "Ankur Jaiswal",
+            creationDate: "Apr 03, 2024",
+            creatorImage:
+                "https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            thumbnailImage:
+                "https://images.unsplash.com/photo-1638136264464-2711f0078d1e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
     ];
     return (
         <div className="max-w-screen-2xl mx-auto">
