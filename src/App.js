@@ -51,6 +51,7 @@ function App() {
                 {cardData.map((e) => {
                     return (
                         <Card
+                        key
                             flatCard={cardData.flatCard}
                             tagName={cardData.tagName}
                             tagColor={cardData.tagColor}
